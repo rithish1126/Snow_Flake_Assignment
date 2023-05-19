@@ -125,7 +125,7 @@ Internal Stage
 External Stage
 <img width="847" alt="Screenshot 2023-05-18 at 6 16 35 PM" src="https://github.com/rithish1126/Snow_Flake_Assignment/assets/122535424/aefa0aee-cceb-40f9-8244-e2a5dd3abb53">
 
-# 9) Load data into the tables using copy into statements. In one table load from the internal stage and in another from the external
+## 9) Load data into the tables using copy into statements. In one table load from the internal stage and in another from the external
 
 Create internal and external tables 
 ```
@@ -157,7 +157,7 @@ select * from employee_external limit 10;
 ```
 <img width="1121" alt="Screenshot 2023-05-18 at 6 23 16 PM" src="https://github.com/rithish1126/Snow_Flake_Assignment/assets/122535424/1097c3ba-6828-40a9-8ab6-fee417c9bf81">
 
-# 10. Upload any parquet file to the stage location and infer the schema of the file 
+## 10. Upload any parquet file to the stage location and infer the schema of the file 
 
 Create file format for parquet
 ```
