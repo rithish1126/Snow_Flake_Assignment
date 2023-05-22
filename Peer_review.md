@@ -12,12 +12,12 @@
 
 # Arin's Approach
 
-1)Arin creates three roles: Admin, Developer, and PII then forms relations by granting access according to hierarcy given
-2)Arin then created a warehouse with medium storage size for the assignment, which is used to store the data.
-3)Grants privilages to admin before switching role to admin
-4)Then a database and schema are created
-6)External stage was created attached with the s3 bucket which had the csv file , this data was then transfered to an employee table on snowflake
-7)A variant table was created using the parse json method from the local stage
-8)Arin then creates an stage to store a parquet file of the data then sees the data in the stage 
-9)Arin creates masking policies for the PII role for the email and salary columns of the employees' table, and alters the table to implement these policies.
-10)Grants permissions to the Developer role to use the warehouse, database, and schema and select from the employees' table to verify masking
+1) Arin creates three roles: Admin, Developer, and PII then forms relations by granting access according to hierarcy given
+2) Arin then created a warehouse with medium storage size for the assignment, which is used to store the data.
+3) Grants privilages to admin before switching role to admin
+4) Then a database and schema are created
+6) External stage was created attached with the s3 bucket which had the csv file , this data was then transfered to an employee table on    snowflake
+7) A variant table was created using the parse json method from the local stage
+8) Arin then creates an stage to store a parquet file of the data then sees the data in the stage 
+9) Arin creates masking policies for the PII role for the email and salary columns of the employees' table, and alters the table to implement these policies.
+10) Grants permissions to the Developer role to use the warehouse, database, and schema and select from the employees' table to verify masking
