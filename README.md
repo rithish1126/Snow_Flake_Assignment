@@ -82,7 +82,9 @@ select * from variant_table;
 ```
 
 <img width="1118" alt="Screenshot 2023-05-18 at 5 58 42 PM" src="https://github.com/rithish1126/Snow_Flake_Assignment/assets/122535424/f4ea2076-3041-448a-9f6c-837386d4454c">
+
 ## 8) Load the file into an external and internal stage
+
 Create file format and internalstage
 ```
 CREATE OR REPLACE FILE FORMAT my_csv_format TYPE = 'CSV' FIELD_DELIMITER = ',' SKIP_HEADER = 1;
