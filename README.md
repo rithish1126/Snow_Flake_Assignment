@@ -104,7 +104,9 @@ GRANT ALL ON INTEGRATION s3_integration TO ROLE ADMIN;
 ```
 <img width="1084" alt="Screenshot 2023-05-18 at 6 06 28 PM" src="https://github.com/rithish1126/Snow_Flake_Assignment/assets/122535424/6163326f-7081-4520-a1b8-94f90df6f14f">
 <img width="1440" alt="Screenshot 2023-05-18 at 6 09 23 PM" src="https://github.com/rithish1126/Snow_Flake_Assignment/assets/122535424/aac2e1da-baed-448e-8c9e-c8f067a3a418">
+
 Create S3 integration object
+
 ```
 CREATE STORAGE INTEGRATION s3_integration --
 type = external_stage
